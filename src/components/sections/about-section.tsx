@@ -19,11 +19,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Наука —
+                Наследие
                 <br />
-                это просто
+                великого
                 <br />
-                <span className="text-foreground/40">интересно</span>
+                <span className="text-foreground/40">учёного</span>
               </h2>
             </div>
 
@@ -34,10 +34,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Мы собрали лучшие научные материалы, объяснили сложное простым языком и создали пространство, где знания становятся увлекательным путешествием.
+                Лаборатория имени Ломоносова — первая в России научная площадка, созданная в честь гениального учёного, поэта и просветителя Михаила Васильевича Ломоносова.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Для студентов, которые хотят понимать мир глубже — без скучных учебников и зубрёжки.
+                Мы продолжаем его традиции: ведём исследования, популяризируем науку и открываем знания для нового поколения студентов.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats with creative layout */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "200+", label: "Статей", sublabel: "На понятном языке", direction: "right" },
-              { value: "4", label: "Раздела", sublabel: "Физика, биология, IT, история", direction: "left" },
-              { value: "∞", label: "Открытий", sublabel: "Тебя ждёт впереди", direction: "right" },
+              { value: "1755", label: "Год основания", sublabel: "Традиции Ломоносова", direction: "right" },
+              { value: "5", label: "Лабораторий", sublabel: "Исследовательских направлений", direction: "left" },
+              { value: "300+", label: "Студентов", sublabel: "Проходят обучение ежегодно", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {

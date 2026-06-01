@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Направления
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Области знаний</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Исследовательские лаборатории</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Физика и астрономия",
-              description: "От квантовой механики до тайн далёких галактик — исследуй фундаментальные законы вселенной",
+              title: "Химия и материаловедение",
+              description: "Исследования в области синтеза новых материалов — в традициях химических открытий Ломоносова",
               direction: "top",
             },
             {
-              title: "Биология и химия",
-              description: "Как устроена жизнь на молекулярном уровне и что происходит внутри живой клетки",
+              title: "Физика и оптика",
+              description: "Эксперименты по физике света, электричества и тепловых явлений — основы, заложенные великим учёным",
               direction: "right",
             },
             {
-              title: "Математика и IT",
-              description: "Алгоритмы, теория чисел и современные технологии — логика как инструмент познания",
+              title: "География и геология",
+              description: "Изучение природных явлений, картография и исследование недр России",
               direction: "left",
             },
             {
-              title: "История науки",
-              description: "Великие открытия, учёные-первопроходцы и революции в мышлении человечества",
+              title: "История и просвещение",
+              description: "Популяризация науки и образования в духе просветительской миссии Ломоносова",
               direction: "bottom",
             },
           ].map((service, i) => (

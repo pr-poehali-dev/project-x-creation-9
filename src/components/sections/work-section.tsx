@@ -15,31 +15,31 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Статьи
+            Исследования
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные материалы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Научные труды лаборатории</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "Чёрные дыры: мифы и реальность",
-              category: "Физика / Астрофизика",
+              title: "Ломоносов и теория теплоты",
+              category: "История науки / Физика",
               year: "2025",
               direction: "left",
             },
             {
               number: "02",
-              title: "ДНК: код жизни на Земле",
-              category: "Биология / Генетика",
+              title: "Мозаичное искусство: химия цвета",
+              category: "Химия / Материаловедение",
               year: "2025",
               direction: "right",
             },
             {
               number: "03",
-              title: "Квантовые компьютеры: как это работает",
-              category: "Физика / Технологии",
+              title: "Первый российский университет: путь к знаниям",
+              category: "История / Просвещение",
               year: "2025",
               direction: "left",
             },
